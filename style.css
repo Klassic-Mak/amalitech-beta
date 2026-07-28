@@ -1,0 +1,52 @@
+body {
+  font-family: "Montserrat";
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  height: 100vh;
+}
+
+.login {
+  padding: 90px;
+  border-radius: 16px;
+  width: 20%;
+  background-color: white;
+  box-shadow: 0px 12px 70px rgba(0, 0, 0, 0.164);
+}
+
+.login h1 {
+  text-align: center;
+}
+
+.login p {
+  text-align: center;
+}
+
+.login input {
+  padding: 12px;
+  width: 100%;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 6px;
+}
+
+.login button {
+  margin-top: 18px;
+
+  border: none;
+  padding: 12px;
+  background-color: blueviolet;
+  border-radius: 8px;
+  width: 120px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+.login button:hover {
+  background-color: black;
+}
